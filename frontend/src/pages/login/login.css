@@ -1,0 +1,94 @@
+.loginbottom{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.loginwrapper{
+    height: 400px;
+    width: 350px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 1px 1px 12px 3px rgba(0,0,0,0.83);
+-webkit-box-shadow: 1px 1px 12px 3px rgba(0,0,0,0.83);
+-moz-box-shadow: 1px 1px 12px 3px rgba(0,0,0,0.83);
+border-radius: 10px;
+}
+
+.loginlogo{
+    font-size: 30px;
+    height: 40px;
+    width: 100%;
+    background-color: #686de0;
+    margin-top: -13.5px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    font-weight: 600;
+    color: #f6e58d;
+}
+
+.loginEmail{
+    width: 92%;
+    height: 45px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    padding: 5px;
+    font-size: 18px;
+}
+.loginPwd{
+    width: 92%;
+    height: 45px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    padding: 5px;
+    font-size: 18px;
+}
+
+.loginBtn{
+    width: 92%;
+    height: 45px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    padding: 5px;
+    font-size: 22px;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+    background-color: rgb(107, 191, 224);
+}
+
+.loginBtn:hover{
+    background-color: rgb(77, 146, 173);
+    color: rgb(223, 223, 223);
+}
+
+.l-signup{
+    width: 92%;
+    height: 45px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    padding: 5px;
+    font-size: 22px;
+    font-weight: 500;
+    border: none;
+    cursor: pointer;
+    background-color: rgb(107, 191, 224);
+}
+
+.l-signup:hover{
+    background-color: rgb(77, 146, 173);
+    color: rgb(223, 223, 223);
+}
+
+.fg-pwd{
+    text-decoration: underline;
+    cursor: pointer;
+    font-size: 18px;
+}

@@ -1,0 +1,97 @@
+.addnote{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0, 0.7);
+    height: 100vh;
+    width: 100vw;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.wrapper{
+    height: 400px;
+    width: 350px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.addtopbar{
+    height: 30px;
+    background-color: skyblue;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 2px;
+}
+
+.closeBtn{
+    margin-right: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.closeBtn:hover{
+    background-color: red;
+    color: whitesmoke;
+}
+
+.addcenter{
+    height: 320px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.addtitle{
+    box-sizing: border-box;
+    width: 95%;
+    margin: 10px 0;
+    height: 30px;
+    border-radius: 10px;
+    padding: 4px;
+}
+.addtitle:focus{
+    outline: none;
+}
+
+.addText{
+    height: 98%;
+    width: 95%;
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding: 5px;
+    resize: none;
+}
+
+.addbottom{
+    box-sizing: border-box;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.addButton{
+    width: 93%;
+    padding: 5px;
+    background-color: #3498db;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 500;
+    color: white;
+    cursor: pointer;
+}
+
+.addButton:hover{
+background-color: #2980b9;
+}

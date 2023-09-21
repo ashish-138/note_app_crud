@@ -1,0 +1,78 @@
+.feed{
+height: 350px;
+width: 320px;
+background-color: #81ecec;
+border-radius: 5px;
+box-shadow: 1px 1px 12px 3px rgba(0,0,0,0.83);
+-webkit-box-shadow: 1px 1px 12px 3px rgba(0,0,0,0.83);
+-moz-box-shadow: 1px 1px 12px 3px rgba(0,0,0,0.83);
+margin:20px 25px;
+}
+
+.feedtop{
+    display: flex;
+    height: 30px;
+    background-color: #2980b9;
+    align-items: center;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    justify-content: space-between;
+}
+
+.title{
+    margin-left: 10px;
+    height: 22px;
+    overflow: hidden;
+    width: 250px;
+    
+}
+
+
+.feedtitle{
+    color: aliceblue;
+    font-size: 15px;
+    font-weight: 400;
+    cursor: context-menu;
+}
+
+.title:hover{
+    overflow: visible;
+    cursor: pointer;
+    background-color: rgb(102, 101, 101);
+    height: auto;
+    color: black;
+}
+
+.icons{
+    display: flex;
+    margin-right: 5px;
+    margin-top: 3px;
+}
+
+.icon{
+margin-right: 4px;
+cursor: pointer;
+font-size: 8px;
+padding: 0 3px;
+border-radius: 10px;
+}
+
+#icon1:hover{
+background-color: #1b5c88;
+color: white;
+}
+
+#icon2:hover{
+    background-color: red;
+    color: white;
+}
+
+.feedbottom{
+    padding: 5px;
+    height: 310px;
+    overflow-y: auto;
+}
+
+.fbtext{
+    overflow-y: hidden;
+}

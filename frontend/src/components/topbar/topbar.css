@@ -1,0 +1,53 @@
+.topbar{
+    display: flex;
+    height: 50px;
+    background-color: #686de0;
+    align-items: center;
+    position: sticky;
+}
+
+.tbleft{
+    flex: 4;
+}
+
+.tbcenter{
+    flex: 4;
+    display: flex;
+    justify-content: center;
+}
+
+.tbright{
+    flex: 4;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.tbleftspan{
+    margin-left: 25px;
+    font-size: 24px;
+    font-weight: 700;
+    color: #f6e58d;
+    cursor: pointer;
+}
+
+.tbcenterspan{
+    font-size: 20px;
+    font-weight: 500;
+    color: antiquewhite;
+    cursor: pointer;
+}
+
+.btn{
+    border: none;
+    margin-right:100px;
+    font-size: 15px;
+    font-weight: 400;
+    padding: 7px;
+    color: white;
+    background-color: #eb4d4b;
+    border-radius: 7px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: #cf3b39;
+}

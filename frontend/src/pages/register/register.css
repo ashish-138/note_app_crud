@@ -1,0 +1,124 @@
+.signUpbtm{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.signupwrapper{
+    height: 400px;
+    width: 350px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 1px 1px 12px 3px rgba(0,0,0,0.83);
+    -webkit-box-shadow: 1px 1px 12px 3px rgba(0,0,0,0.83);
+    -moz-box-shadow: 1px 1px 12px 3px rgba(0,0,0,0.83);
+    border-radius: 10px;
+}
+
+.signuplogo{
+    font-size: 30px;
+    height: 40px;
+    width: 100%;
+    background-color: #686de0;
+    margin-top: -13.5px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    font-weight: 600;
+    color: #f6e58d;
+}
+
+.signupname{
+    display: flex;
+    width: 95%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.fname{
+    height: 30px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding: 5px;
+    font-size: 15px;
+    width: 45%;
+}
+
+.lname{
+    height: 30px;
+    width: 45%;
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding: 5px;
+    font-size: 15px;
+}
+
+.signupEmail{
+    height: 30px;
+    width: 90%;
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding: 5px;
+    font-size: 15px;
+}
+
+.signupPwd{
+    height: 30px;
+    width: 90%;
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding: 5px;
+    font-size: 15px;
+}
+
+.cnfPwd{
+    height: 30px;
+    width: 90%;
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding: 5px;
+    font-size: 15px;
+}
+
+.signUp{
+    width: 92%;
+    height: 45px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    padding: 5px;
+    font-size: 22px;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+    background-color: rgb(107, 191, 224);
+}
+
+.signUp:hover{
+    background-color: rgb(77, 146, 173);
+    color: rgb(223, 223, 223);
+}
+
+.Sup-login{
+    width: 92%;
+    height: 45px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    padding: 5px;
+    font-size: 22px;
+    font-weight: 500;
+    border: none;
+    cursor: pointer;
+    background-color: rgb(107, 191, 224);
+}
+
+.Sup-login:hover{
+    background-color: rgb(77, 146, 173);
+    color: rgb(223, 223, 223);
+}
