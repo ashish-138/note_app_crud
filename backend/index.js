@@ -3,6 +3,7 @@ const DBconnection = require("./database/dbconnection");
 const auth = require("./apis/auth.js");
 const data = require ("./apis/data.js");
 const helmet = require("helmet");
+const cors = require("cors")
 
 
 
@@ -16,6 +17,7 @@ DBconnection();
 //middleware
 app.use(express.json())
 app.use(helmet());
+app.use(cors());
 
 
 app.use("/api",auth);

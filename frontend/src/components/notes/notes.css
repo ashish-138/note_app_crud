@@ -32,3 +32,13 @@ cursor: pointer;
    font-size: 75px;
 
 }
+
+.noFeed{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(168, 167, 167);
+    cursor: context-menu;
+}

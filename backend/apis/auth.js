@@ -39,7 +39,13 @@ router.post("/login", async (req,res)=>{
             if(!validatePwd){
                 res.status(400).json("Password is Wrong");
             }else{
-                res.status(200).json(user);
+                const data = {
+                    fname:user.fname,
+                    lname:user.lname,
+                    email:user.email,
+                    id:user._id
+                }
+                res.status(200).json(data);
             }
         }
 
@@ -47,6 +53,23 @@ router.post("/login", async (req,res)=>{
         res.status(500).json(err);
     }
 })
+
+router.get("/user/:id", async (req,res)=>{
+    try{
+        //email validation
+        const user = await Users.findById({_id:req.params.id});
+        
+                const data = {
+                    fname:user.fname,
+                    lname:user.lname,
+                  }
+                res.status(200).json(data);
+
+    }catch(err){
+        res.status(500).json(err);
+    }
+})
+
 
 
 module.exports = router;
